@@ -35,7 +35,7 @@ Leider findet der Treffpunkt derzeit nicht regelmässig statt. Solltest du Inter
 
 Wir sammeln Ideen für Veranstaltungen, Events, Flyer etc. und verwirklichen diese in kleineren Gruppen. Damit ist der Aufwand für die Mitglieder abschätzbar und zeitlich begrenzt - wir wollen schliesslich keine Last fürs Studium sein. Wo wir deine Unterstützung brauchen, z.B. wenn die Untervereine der OST vorgestellt werden, erfährst du über den Newsletter. Natürlich kannst du auch eigene Ideen mit einbringen!
 
-Du kannst konkret an Projekten wie der [Website](https://github.com/openhsr/www.open-ost.ch/issues) oder dem [open\HSR-Connect](https://github.com/openhsr/connect/issues) mitarbeiten, in dem du eines aus vielen Tickets, mit dem Label `help wanted`, auf GitHub in Angriff nimmst. Unklarheiten ungehemmt ins Ticket schreiben.
+Du kannst konkret an Projekten wie der [Website](https://github.com/openost/www.open-ost.ch/issues) oder dem [open\HSR-Connect](https://github.com/openost/connect/issues) mitarbeiten, in dem du eines aus vielen Tickets, mit dem Label `help wanted`, auf GitHub in Angriff nimmst. Unklarheiten ungehemmt ins Ticket schreiben.
 
 Wir freuen uns auch über kleinere Beiträge! Das kann die kurze Rechtschreibprüfung einer Unterseite sein, Fehler in den Dokus melden, eine Idee für eine Veranstaltung, Unterseite etc. aufschreiben usw.
 
@@ -80,7 +80,7 @@ Zusätzlich können noch bis zu 4 Beisitzer besetzt werden.
 
 ### Statuten und Protokolle
 
-Die [Statuten](https://raw.githubusercontent.com/openhsr/verein/master/statuten/statuten.pdf) und Protokolle werden im Git-Repository unter <https://github.com/openhsr/verein/> verwaltet.
+Die [Statuten](https://raw.githubusercontent.com/openhsr/verein/master/statuten/statuten.pdf) und Protokolle werden im Git-Repository unter <https://github.com/openost/verein/> verwaltet.
 
 Pull Requests für die Statuten werden an der nächsten GV als Änderungsantrag traktandiert.
 

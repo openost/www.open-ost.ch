@@ -8,52 +8,66 @@
   <nav>
     <ul>
       <li><a href="{{ site.baseurl }}/">Home</a></li>
-        {% for my_page in site.pages %}
-          {% if my_page.title and my_page.hidden_from_navigation != true %}
-            <li {% if my_page.url == page.url %} class="active"{% endif %} >
-              <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-              {% if my_page.title == "Programme" %}
-                      <ul>
-                      <li><a{% if my_page.url == page.url %} class="active"{% endif %} href="/app/">Übersicht</a></li>
-                  {% for app_page in site.app %}
-                         <li><a{% if app_page.url == page.url %} class="active"{% endif %} href="{{ app_page.url }}">{{ app_page.title }}</a></li>
-                  {% endfor %}
-                      </ul>
-              {% endif %}
-              {% if my_page.title == "Dokumentationen" %}
-                      <ul>
-                       <li><a{% if my_page.url == page.url %} class="active"{% endif %} href="/hsr/">Überlebensguide</a></li>
-                  {% for hsr_page in site.hsr %}
-                      <li><a{% if hsr_page.url == page.url %} class="active"{% endif %} href="{{ hsr_page.url }}">{{ hsr_page.title }}</a></li>
-                  {% endfor %}
-                      </ul>
-              {% endif %}
-              {% if my_page.title == "Community" %}
-                <ul>
-                  {% for my_sub_page in site.pages %}
-                    {% if my_sub_page.parent == 'community'  %}
-                      <li><a{% if my_sub_page.url == page.url %} class="active"{% endif %} href="{{ my_sub_page.url }}">{% if my_sub_page.navtitle %}{{my_sub_page.navtitle}}{% else %}{{ my_sub_page.title }}{% endif %}</a></li>
-                    {% endif %}
-                  {% endfor %}
-                </ul>
-              {% endif %}
-              {% if my_page.title == "Events" %}
-                      <ul>
-                      <li><a{% if my_page.url == page.url %} class="active"{% endif %} href="/events/">Übersicht</a></li>
-                  {% for event_page in site.events %}
-                         <li><a{% if event_page.url == page.url %} class="active"{% endif %} href="{{ event_page.url }}">{{ event_page.title }}</a></li>
-                  {% endfor %}
-                      </ul>
-              {% endif %}
-            </li>
+      {% for my_page in site.pages %}
+      {% if my_page.title and my_page.hidden_from_navigation != true %}
+      <li {% if my_page.url==page.url %} class="active" {% endif %}>
+        <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+        {% if my_page.title == "Programme" %}
+        <ul>
+          <li>
+            <a{% if my_page.url==page.url %} class="active" {% endif %} href="/app/">Übersicht</a>
+          </li>
+          {% for app_page in site.app %}
+          <li>
+            <a{% if app_page.url==page.url %} class="active" {% endif %} href="{{ app_page.url }}">{{ app_page.title }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+        {% if my_page.title == "Dokumentationen" %}
+        <ul>
+          <li>
+            <a{% if my_page.url==page.url %} class="active" {% endif %} href="/hsr/">Überlebensguide</a>
+          </li>
+          {% for hsr_page in site.hsr %}
+          <li>
+            <a{% if hsr_page.url==page.url %} class="active" {% endif %} href="{{ hsr_page.url }}">{{ hsr_page.title }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+        {% if my_page.title == "Community" %}
+        <ul>
+          {% for my_sub_page in site.pages %}
+          {% if my_sub_page.parent == 'community' %}
+          <li>
+            <a{% if my_sub_page.url==page.url %} class="active" {% endif %} href="{{ my_sub_page.url }}">{% if my_sub_page.navtitle %}{{my_sub_page.navtitle}}{% else %}{{ my_sub_page.title }}{% endif
+              %}</a>
+          </li>
           {% endif %}
-        {% endfor %}
+          {% endfor %}
+        </ul>
+        {% endif %}
+        {% if my_page.title == "Events" %}
+        <ul>
+          <li>
+            <a{% if my_page.url==page.url %} class="active" {% endif %} href="/events/">Übersicht</a>
+          </li>
+          {% for event_page in site.events %}
+          <li>
+            <a{% if event_page.url==page.url %} class="active" {% endif %} href="{{ event_page.url }}">{{ event_page.title }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </li>
+      {% endif %}
+      {% endfor %}
     </ul>
   </nav>
   <div class="social">
     <a href="/hilfe/" title="Hilfe"><i class="fa fa-comments"></i></a>
-    <!-- a href="https://twitter.com/openhsr" title="Twitter"><i class="fa fa-twitter"></i></a-->
     <a href="mailto:info@open-ost.ch" title="E-Mail"><i class="fa fa-envelope"></i></a>
-    <a href="https://github.com/openhsr" title="Github"><i class="fa fa-github"></i></a>
+    <a href="https://github.com/openost" title="Github"><i class="fa fa-github"></i></a>
   </div>
 </header>
