@@ -22,7 +22,7 @@ Alle Angaben zum Einrichten findest du unter [Dokumentationen → WLAN](/hsr/wla
 
 ## :envelope: E-Mail und Postfach
 
-An der OST erhälst du eine persönliche E-Mail-Adresse in der Form ```vorname.nachname@ost.ch```. Diese Adresse ist nur während der Zeit an der OST für dich reserviert.
+An der OST erhältst du eine persönliche E-Mail-Adresse in der Form ```vorname.nachname@ost.ch```. Diese Adresse ist nur während der Zeit an der OST für dich reserviert.
 
 <!-- Wie du dein E-Mail-Programm (zum Beispiel [Thunderbird](/app/thunderbird/)) einrichtest, findest du unter [Dokumentationen → E-Mail](/hsr/email/). -->
 Einrichtung der E-Mail und Postfach [Linux | Email-Postfach und Kalender einrichten](https://wiki.ost.ch/pages/releaseview.action?pageId=15499267){:target="_blank"}
