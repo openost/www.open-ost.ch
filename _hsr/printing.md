@@ -2,6 +2,7 @@
 title: Drucken
 ---
 
+<!-- Einfache Möglichkeit zum drucken: PDFs auf USB-Stick laden, am Drucker auswählen und mit dem Badge bezahlen. -->
 
 ## Drucker unter Linux einrichten
 

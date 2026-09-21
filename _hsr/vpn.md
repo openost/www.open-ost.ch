@@ -1,17 +1,24 @@
 ---
 title: VPN
 ---
+
+## Anleitung auf wiki.ost.ch
+Finde hier die aktuelle Anleitung [VPN | Linux](https://wiki.ost.ch/pages/releaseview.action?pageId=64946406){:target="_blank"}
+
+{% toggle %}
+
 ## Technische Angaben
+
 
 Einstellung | Wert
 ----------- | ----
 Gateway | ```vpn.ost.ch```
-Benutzername | ```maria.muster@@ost.ch```
+Benutzername | ```maria.muster@ost.ch```
 Benutzerpasswort | ```GeHeim007```
 
 Zusätzlich brauchst du die Microsoft Authenticator App. Einen Link solltest du vom OST Helpdesk erhalten haben.
 
-{% toggle %}
+
 ## VPN unter Ubuntu einrichten
 
 Hinweis: Richte das VPN nicht im eduroam der OST ein - aus dem eduroam können keine VPN-Verbindungen hergestellt werden.

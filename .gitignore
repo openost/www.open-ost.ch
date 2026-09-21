@@ -3,7 +3,6 @@ _site
 .jekyll-metadata
 .jekyll-cache/
 .idea
-TODO.md
 
 /vendor/bundle
 /.bundle
