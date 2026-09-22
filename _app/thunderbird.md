@@ -22,6 +22,10 @@ category: email
 5. **Konfigurieren** des HSR E-Mail Servers<br>
     {% lightbox /assets/app/thunderbird/konto_einrichten_3.png --data="thunderbird" --title="Konfiguration HSR E-Mail Server" --alt="Konfiguration HSR E-Mail Server" %}
 
+
+<!--
+(content still visible in source code)
+
 {% toggle %}
 ## HSR Adressbuch
 
@@ -128,9 +132,13 @@ oder folge [der Anleitung von Thunderbird](https://support.mozilla.org/de/kb/lig
 9. <kbd>Finish</kbd> klicken
     {% lightbox /assets/app/thunderbird/lightning/tb_hsr_calendar_final.png --data="ews_setup" --title="Konfiguration HSR-Exchange-Kalender abgeschlossen" --alt="Konfiguration HSR-Exchange-Kalender abgeschlossen" %}
 
+#### unterricht.ost.ch Kalender laden
+![alt text](/assets/app/thunderbird/unterricht-kalender.png)
+
+{% endtoggle %}
+-->
 
 ## Links
 
 - [Thunderbird im ubuntuusers-Wiki](https://wiki.ubuntuusers.de/Thunderbird/)
 
-{% endtoggle %}

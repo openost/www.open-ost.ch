@@ -20,20 +20,21 @@ In unseren Dokumentationen verwenden wir jeweils den Benutzernamen ```maria.must
 Überall an der OST hast du Zugriff auf das ```eduroam```-Netzwerk.  
 Alle Angaben zum Einrichten findest du unter [Dokumentationen → WLAN](/hsr/wlan/).
 
-## :envelope: E-Mail
+## :envelope: E-Mail und Postfach
 
-An der OST erhälst du eine persönliche E-Mail-Adresse in der Form ```vorname.nachname@ost.ch```. Diese Adresse ist nur während der Zeit an der OST für dich reserviert.
+An der OST erhältst du eine persönliche E-Mail-Adresse in der Form ```vorname.nachname@ost.ch```. Diese Adresse ist nur während der Zeit an der OST für dich reserviert.
 
-Wie du dein E-Mail-Programm (zum Beispiel [Thunderbird](/app/thunderbird/)) einrichtest, findest du unter [Dokumentationen → E-Mail](/hsr/email/).
+<!-- Wie du dein E-Mail-Programm (zum Beispiel [Thunderbird](/app/thunderbird/)) einrichtest, findest du unter [Dokumentationen → E-Mail](/hsr/email/). -->
+Einrichtung der E-Mail und Postfach [Linux | Email-Postfach und Kalender einrichten](https://wiki.ost.ch/pages/releaseview.action?pageId=15499267){:target="_blank"}
 
 ## :books: Dateiablagen
 
-Alle Unterlagen zu den Vorlesungen findest du im Ordner ```skripte``` auf der Dateiablage und im internen Netzwerk unter <http://skripte.hsr.ch/>.
+Die Unterlagen zu den Vorlesungen sollten im jeweiligen Moodle-Kurs verfügbar sein, ansonsten im Modul nachfragen.
 
-Die Angaben und Anleitungen zum Verbinden findest du unter [Dokumentationen → Netzwerkfreigaben](/hsr/shares/).
 
 ## :page\_with\_curl: Drucken
 
+<!-- 
 Es gibt zwei Möglichkeiten zum Drucken:
 
 ### E-Mail mit PDF im Anhang
@@ -46,8 +47,27 @@ Sende einfach ein E-Mail mit einem PDF im Anhang an ```mobileprint.rj@ost.ch```.
 
 Aktuell müssen Drucker auf dem Mac und Linux einzeln von Hand installiert und konfiguriert werden, es gibt leider (noch) kein Pendant zum OST-Mapper.
 
+-->
+
+1. Möglichkeit: PDF auf USB-Stick laden, am Drucker auswählen und mit dem Badge bezahlen.
+
+<!-- Drucker einrichten Windows: https://wiki.ost.ch/pages/releaseview.action?pageId=61573442
+Drucker einrichten macOS: https://wiki.ost.ch/pages/releaseview.action?pageId=424149241 -->
+
+
 ## :school: VPN
 
 Um von extern auf die Dateiablagen der OST zuzugreifen, brauchst du eine VPN-Verbindung. Wie du diese einrichtest, findest du unter [Dokumentationen → VPN](/hsr/vpn).
 
 Übrigens: Eine VPN-Verbindung ist kostenlos über Hotspots von [Swisscom](http://hotspotlocator.swisscom.ch/en/locator), [Monzoon](http://hotspot.monzoon.net/?sec=hot&cot=hsl&lang=en) und [TheNet](https://wlan.thenet.ch/en/hotspot_locator) möglich.
+
+## Teams auf Linux nutzen
+
+[Linux | Wie nutze ich Teams unter Linux?](https://wiki.ost.ch/pages/releaseview.action?pageId=15499327&src=contextnavpagetreemode
+){:target="_blank"}
+
+
+<!--
+## Weitere
+Dualboot Linux Windows https://wiki.ost.ch/pages/releaseview.action?pageId=727679122
+-->

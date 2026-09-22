@@ -15,7 +15,7 @@ Der Verwendungszweck der eingenommen Mittel wird von der Generalversammlung defi
 In den vergangenen Jahren wurden jeweils folgende Aktivitäten durchgeführt:
 
 
-- Durchführung von Anlässen (z.B. [Git-GitHub-Workshop](https://github.com/openhsr/git-github-workshop), Hackatons) 
+- Durchführung von Anlässen (z.B. [Git-GitHub-Workshop](https://github.com/openost/git-github-workshop), Hackatons) 
 - Betrieb und Unterhalt des [open\OST Studentenportals](https://studentenportal.ch/)
 - Betrieb und Unterhalt der [open\OST-Webseite](https://www.open-ost.ch/), welche Dokumentationen im Bereich alternative Betriebssysteme und Open Source an der OST beinhalten.
 - Durchführung von Vereinsanlässen (z.B. GV, Mitgliedertreffen)

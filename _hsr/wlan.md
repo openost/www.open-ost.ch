@@ -1,7 +1,13 @@
 ---
 title: WLAN
 ---
+
+Finde hier die aktuelle Anleitung [eduroam für Ubuntu/Linux](https://wiki.ost.ch/pages/releaseview.action?pageId=13795510){:target="_blank"}
+
+{% toggle %}
+
 ## Technische Angaben
+
 
 Einstellung | Wert
 ----------- | ----
@@ -9,13 +15,12 @@ SSID | ```eduroam```
 Security | ```WPA & WPA2 Enterprise```
 Authentication | ```Protected EAP (PEAP)```
 PEAP version | ```Automatic```
-CA Zertifikat | ```ca-certificates.crt```
+CA Zertifikat | <!--```ca-certificates.crt``` --> "no CA certificate is required" auswählen
 Inner authentication | ```MSCHAPv2```
-Username | ```maria.muster```
+Username | ```maria.muster@ost.ch```
 Password | ```GeHeim007```
 
 
-{% toggle %}
 ## Zertifikat
 
 Sofern der Netzwerk-Manager nicht automatisch ein Zertifikat auswählt muss dies manuell ausgewählt werden.

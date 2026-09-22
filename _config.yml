@@ -5,19 +5,19 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: ""
 url: "https://www.open-ost.ch/" # the base hostname & protocol for your site
 
-github_username: openhsr
+github_username: openost
 git_repo: www.open-ost.ch
 
 exclude:
-    - docker/
-    - Makefile
-    - Gemfile
-    - Gemfile.lock
-    - deploy.sh
-    - wercker.yml
-    - vendor
-    - .bundle
-    - tmp
+  - docker/
+  - Makefile
+  - Gemfile
+  - Gemfile.lock
+  - deploy.sh
+  - wercker.yml
+  - vendor
+  - .bundle
+  - tmp
 
 host: 0.0.0.0
 
