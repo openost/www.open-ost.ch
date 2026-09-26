@@ -27,8 +27,8 @@ jobs:
         with:
           ruby-version: "3"
           bundler-cache: true
-      - name: Build with Jekyll
-        run: bundle exec jekyll build
+      - name: Build Jekyll site
+        run: bundle exec jekyll build --baseurl "https://www.open-ost.ch"
         env:
           JEKYLL_ENV: production
       - name: Upload generated site
@@ -45,33 +45,50 @@ jobs:
       DOCKER_USERNAME: "${{ secrets.DOCKER_USERNAME }}"
       DOCKER_PASSWORD: "${{ secrets.DOCKER_PASSWORD }}"
     steps:
+      - uses: actions/checkout@v7
       - name: Download generated site
-        uses: actions/download-artifact@v8
+        uses: actions/download-artifact@v4
         with:
           name: jekyll-site
           path: _site/
-      - uses: actions/checkout@v7
+      - name: create clean docker build context
+        run: |
+          set -euo pipefail
+
+          rm -rf docker-context
+          mkdir -p docker-context
+
+          cp docker/Dockerfile-prod docker-context/Dockerfile
+          cp -a _site docker-context/_site
+
+          echo "Docker build context:"
+          find docker-context -maxdepth 3 -type f | sort
+
+          test -d docker-context/_site
+          test -f docker-context/_site/index.html || \
+            test -f docker-context/_site/app/index.html
       - name: Fetch repository tags (for git describe to work)
         run: git fetch --prune --unshallow
-      - name: Export env vars
+      - name: Determine image tags
+        id: tags
+        shell: bash
         run: |
-          set -euxo pipefail
-          export RELEASE=$(git describe --tags)
-          if [ -z "$RELEASE" ]; then echo "Could not determine release name"; exit 1; fi
-          echo "export DOCKER_TAGS='openhsr/openost:latest openhsr/openost:${RELEASE}'" >> .ci-env
-      - name: Build Docker image
-        run: | 
-          set -euxo pipefail
-          source .ci-env
-          docker build --file=./docker/Dockerfile-prod --tag=openhsr/openost .
-          for tag in $DOCKER_TAGS; do
-              docker tag openhsr/openost "$tag"
-          done
-      - name: Publish Docker image
-        run: |
-          set -euxo pipefail
-          source .ci-env 
-          echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-          for tag in $DOCKER_TAGS; do
-              docker push "$tag"
-          done
+          set -euo pipefail
+
+          RELEASE="$(git describe --tags --always --dirty)"
+
+          echo "release=$RELEASE" >> "$GITHUB_OUTPUT"
+      - name: Log in to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v6
+        with:
+          context: ./docker-context
+          file: ./docker-context/Dockerfile
+          push: true
+          tags: |
+            openhsr/openost:latest
+            openhsr/openost:${{ steps.tags.outputs.release }}
