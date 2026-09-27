@@ -86,7 +86,7 @@ Pull Requests für die Statuten werden an der nächsten GV als Änderungsantrag 
 
 ### Kontakt
 
-Falls du dich für den **open\OST** interessierst, freuen wir uns immer über ein E-Mail unter <info@open-ost.ch>. Für den Austausch und Benachrichtigungen zu Events besuche unseren [Matrix kanal](https://matrix.to/#/#oss_meetup:matrix.org).
+Falls du dich für den **open\OST** interessierst, freuen wir uns immer über ein E-Mail unter <info@open-ost.ch>. Für den Austausch und Benachrichtigungen zu Events besuche unseren [Matrix kanal](https://matrix.to/#/#verein:open-ost.ch).
 
 ### Sponsoring & Kontoinformationen
 
