@@ -23,7 +23,7 @@ Mehr zu [{{ event_page.title }}]({{ event_page.url }})
 
 # OSS Meetup
 >  Das OSS Meetup ist ein Treffen ca. jeden Monat an einem Abend an der OST Rapperswil, es geht um verschiedenen Themen zu "Open Source Software".
-<!-- Link Gitlab + meetup/studentenportal? -->
+<!-- Link GitLab + meetup/studentenportal? -->
 
 # [Swiss Python Summit](http://www.python-summit.ch/)
 
