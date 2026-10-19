@@ -1,9 +1,9 @@
 ---
-title: Github Contribution
+title: GitHub Contribution
 tags: Entwicklung
 ---
 
-Bei einer Contribution in ein öffentliches Github Projekt, gibt es einige Punkte zu beachten. Diese möchten wir die hier zeigen:
+Bei einer Contribution in ein öffentliches GitHub Projekt, gibt es einige Punkte zu beachten. Diese möchten wir die hier zeigen:
 
 ## Projektwahl
 1. Wähle ein Projekt, dass dein Interesse geweckt hat. Bist du noch auf der Suche, würden sich viele interessante [Open Source Projekte](https://github.com/explore) über deine Mithilfe freuen.
@@ -24,7 +24,7 @@ Bei einer Contribution in ein öffentliches Github Projekt, gibt es einige Punkt
 ## Forken und Entwickeln
 1. Erstelle einen Fork des Projekts
 
-    {% lightbox /assets/tipps/github_contribution/step1_fork.png --data="github contribution" --title="Github Fork erstellen" --alt="Github Fork erstellen %}
+    {% lightbox /assets/tipps/github_contribution/step1_fork.png --data="github contribution" --title="GitHub Fork erstellen" --alt="GitHub Fork erstellen %}
 
 
 2. Klone das geforkte Projekt auf dein Notebook
@@ -65,7 +65,7 @@ Bei einer Contribution in ein öffentliches Github Projekt, gibt es einige Punkt
 
 ## Pull Request
 1. Öffne das geforkte Repository in deinem Browser. Über den grossen, grünen Button kannst du nun einen Pull Request erstellen.
-    {% lightbox /assets/tipps/github_contribution/step2_pull_request.png --data="github contribution" --title="Github Pull Request erstellen" --alt="Github Pull Request erstellen %}
+    {% lightbox /assets/tipps/github_contribution/step2_pull_request.png --data="github contribution" --title="GitHub Pull Request erstellen" --alt="GitHub Pull Request erstellen %}
 
 2. Füge dem Pull Request eine ausführliche Beschreibung mit Referenzen und Beweggründen hinzu.
 

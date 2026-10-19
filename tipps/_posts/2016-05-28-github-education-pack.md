@@ -1,13 +1,13 @@
 ---
-title: Github Student Developer Pack
+title: GitHub Student Developer Pack
 tags: Entwicklung
 ---
 
-Github offeriert allen Studierenden kostenlos das [Student Developer Pack
+GitHub offeriert allen Studierenden kostenlos das [Student Developer Pack
 ](https://education.github.com/pack), welches unter anderem Folgendes enthält:
 
 
-- Unlimitierte private Repositories auf [Github](https://github.com)
+- Unlimitierte private Repositories auf [GitHub](https://github.com)
 - Gratis Continuous Integration mit [Travis-CI](https://travis-ci.org/) für private Repositories
 - [AWS](https://aws.amazon.com/de/) und [Digital Ocean](https://www.digitalocean.com/) Credits
 
@@ -17,8 +17,8 @@ und vieles mehr!
 
 Für die Registrierung brauchst du:
 
-- Einen [Github Account](https://github.com/join)
-- Dein Github Account muss deine [OST-Email eingetragen haben](https://github.com/settings/emails)
+- Einen [GitHub Account](https://github.com/join)
+- Dein GitHub Account muss deine [OST-Email eingetragen haben](https://github.com/settings/emails)
 
 <br>Dann kannst du das Paket einfach unter [education.github.com/pack](https://education.github.com/pack) beantragen!
 
