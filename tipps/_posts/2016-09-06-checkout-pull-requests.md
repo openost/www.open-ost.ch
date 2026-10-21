@@ -1,9 +1,9 @@
 ---
-title: Github Pull-Requests lokal auschecken
+title: GitHub Pull-Requests lokal auschecken
 tags: Entwicklung
 ---
 
-Wer auf Github ein Projekt wartet, kennt die Situation: Ein neuer Pull-Request wird eröffnet und man möchte die Änderungen gerne lokal ausprobieren, bevor man sie merged. Aber wie geht das am einfachsten?
+Wer auf GitHub ein Projekt wartet, kennt die Situation: Ein neuer Pull-Request wird eröffnet und man möchte die Änderungen gerne lokal ausprobieren, bevor man sie merged. Aber wie geht das am einfachsten?
 
 In diesem Tipp zeige ich am Beispiel vom Repository [openost/www.open-ost.ch](https://github.com/openost/www.open-ost.ch/), wie man bequem Pull-Requests lokal auschecken kann.
 
