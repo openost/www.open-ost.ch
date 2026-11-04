@@ -14,7 +14,7 @@
   - [ ] prüfe alle Seiten
 
 Neuer Inhalt
-- [ ] Gitlab der OST
+- [ ] GitLab der OST
 - [ ] Anleitungen für die Game Jam (z.B. Godot Einführung) 
 - [ ] weitere open source programme fürs Studium vorstellen/verlinken
   - [ ] für Notizen

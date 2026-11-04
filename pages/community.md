@@ -22,7 +22,7 @@ Mit deiner Mitgliedschaft ...
 
 Die **Mitgliedschaft ist kostenlos und unverbindlich**. Du darfst mithelfen, wie es dir nach Zeit und Laune passt!
 
-<a href="mailto:info@open-ost.ch?subject=Mitglied%20werden&body=Hallo%20Zusammen!%0A%0AIch%20w%C3%BCrde%20gerne%20Mitglied%20im%20open%5COST%20werden!%0A%0AMein%20Github%20Benutzername%20lautet%20%5BGITHUB%20Benutzername%5D.%0A%5BFalls%20du%20keinen%20Github%20Account%20hast%2C%20kannst%20du%20diesen%20Absatz%20l%C3%B6schen%5D%0A%0ALiebe%20Gr%C3%BCsse%2C%0A%5BNAME%5D" class="button">Jetzt Mitglied werden!</a>
+<a href="mailto:info@open-ost.ch?subject=Mitglied%20werden&body=Hallo%20Zusammen!%0A%0AIch%20w%C3%BCrde%20gerne%20Mitglied%20im%20open%5COST%20werden!%0A%0AMein%20GitHub%20Benutzername%20lautet%20%5BGITHUB%20Benutzername%5D.%0A%5BFalls%20du%20keinen%20GitHub%20Account%20hast%2C%20kannst%20du%20diesen%20Absatz%20l%C3%B6schen%5D%0A%0ALiebe%20Gr%C3%BCsse%2C%0A%5BNAME%5D" class="button">Jetzt Mitglied werden!</a>
 
 ## Treffpunkt
 **Community** - das ist das Herzstück von Open Source. Und damit auch von unserem Verein! Sei es, um Fragen zu macOS und Linux zu klären, an unseren Open Source Projekten mitzuhelfen - oder einfach Teil der Community zu sein: Du bist willkommen!

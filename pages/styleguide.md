@@ -47,7 +47,7 @@ User lokal     | ```maria```
  `/SEITE`   | Chefseiten | Startseite, Vereinsstatuten etc.
  `/hsr/NAME` | Umgebung an der OST | WLAN, Drucken
  `/app/NAME` | OST-Programmkonfiguration | Thunderbird, Eclipse
-`/tipps/NAME` | Tipps & Tricks aus der Community | Github Student Developer Pack etc.
+`/tipps/NAME` | Tipps & Tricks aus der Community | GitHub Student Developer Pack etc.
 
 ### Dokumentationen zur Umgebung an der OST
 

@@ -11,13 +11,13 @@ Erst einmal: Wir freuen uns über DEINE Mithilfe :thumbsup::tada:
 Wenn du Ideen oder Fragen hast, über einen Schreibfehler gestolpert bist, etwas nicht
 verständlich findest oder uns loben / kritisieren möchstest, dann freuen wir uns riesig von dir zu hören!
 
-Wir verwalten und diskutieren unsere Aufgaben mittels [Github Issues](https://github.com/openost/www.open-ost.ch/issues).
-Wenn du mit Github nicht vertraut bist, dann schreib uns einfach [eine E-Mail](mailto:info@open-ost.ch)!
+Wir verwalten und diskutieren unsere Aufgaben mittels [GitHub Issues](https://github.com/openost/www.open-ost.ch/issues).
+Wenn du mit GitHub nicht vertraut bist, dann schreib uns einfach [eine E-Mail](mailto:info@open-ost.ch)!
 
 Am wichtigsten ist, dass du dich meldest - wir helfen dir geren weiter!
 
 ## Bevor du loslegst....
-Um mitarbeiten zu können, solltest du ein Grundwissen über Git haben. Ein guter Einstieg ist [das Interaktive Git Tutorial von Github](https://try.github.io/).
+Um mitarbeiten zu können, solltest du ein Grundwissen über Git haben. Ein guter Einstieg ist [das Interaktive Git Tutorial von GitHub](https://try.github.io/).
 
 Grob können wir die folgenden Arten von Beiträgen unterscheiden:
 
@@ -32,7 +32,7 @@ Aufgepasst: Im Verzeichnis ``_site`` solltest du nichts von Hand anpassen, denn 
 
 Für ein einheitliches Look & Feel haben wir einen einfachen **[Styleguide](https://www.open-ost.ch/styleguide/)** erstellt. Dieser ist nicht in Stein gemeisselt - du darfst gerne Änderungen vorschlagen!
 
-Bevor du Änderungen am Layout und der Struktur der Webseite (3) vornimmst, solltest du das im Vorfeld mit uns besprechen! Am besten via [Github Issues](https://github.com/openost/www.open-ost.ch/issues) oder im persönlichen Gespräch.
+Bevor du Änderungen am Layout und der Struktur der Webseite (3) vornimmst, solltest du das im Vorfeld mit uns besprechen! Am besten via [GitHub Issues](https://github.com/openost/www.open-ost.ch/issues) oder im persönlichen Gespräch.
 
 ## Beispiel eines Beitrags
 Folgende Schritt für Schritt Beschreibung eines Beitrags soll dir aufzeigen,
@@ -65,7 +65,7 @@ wie du auch beitragen kannst. Konkret wird ein Tippfehler korrigiert.
     ```bash
     git commit -m "Fix typo in URL to statuten"
     ```
-9. Ich pushe nun meine Änderungen auf Github:
+9. Ich pushe nun meine Änderungen auf GitHub:
 
     ```bash
     git push origin fix-typo
@@ -100,14 +100,14 @@ wie du auch beitragen kannst. Konkret wird ein Tippfehler korrigiert.
 
 ## Projekt lokal einrichten
 
-Um an der Webseite mitarbeiten zu können, benötigst du einen [Github Account](http://github.com/join).
+Um an der Webseite mitarbeiten zu können, benötigst du einen [GitHub Account](http://github.com/join).
 
 1. **Benötigte Abhängigkeiten installieren**<br>
    Bevor du loslegen kannst, musst du [Git](https://git-scm.com/), Make und [Docker](https://docs.docker.com/engine/installation/) installieren: <br>
    [Git Jetzt installieren](http://apt.ubuntu.com/p/git)
    [Make Jetzt installieren](http://apt.ubuntu.com/p/make)
    [Docker Jetzt installieren](http://apt.ubuntu.com/p/docker)
-2. **Forke das Projekt auf Github**<br>
+2. **Forke das Projekt auf GitHub**<br>
    Gehe dazu mit dem Webbrowser auf das [Repository www.open-ost.ch](https://github.com/openost/www.open-ost.ch) und klicke auf `Fork`:<br>
    ![Screenshot zum Forken eines Projekts](/assets/contribute/projekt_einrichten_1.png)
 3. Wenn du in einer Organisation bist, dann Forke das Projekt zu deinem Benutzer: <br>
