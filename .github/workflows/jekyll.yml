@@ -17,6 +17,7 @@ permissions:
 
 jobs:
   build:
+    if: github.repository == 'openost/www.open-ost.ch'
     runs-on: ubuntu-latest
 
     steps:
@@ -38,6 +39,7 @@ jobs:
           path: _site/
           if-no-files-found: error
   publish:
+    if: github.repository == 'openost/www.open-ost.ch'
     name: publish docker image
     runs-on: ubuntu-latest
     needs: build
