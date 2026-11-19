@@ -4,7 +4,8 @@ title: Dokumentationen
 
 ## Überlebensguide
 
-Der Überlebensguide hilft dir beim Start mit deinem Linux oder Mac an der OST.
+Der Überlebensguide hilft dir beim Start mit deinem Linux oder Mac an der
+Fachhochschule OST.
 
 Weitere Anleitungen findest du auch auf unserer Webseite unter <https://www.open-ost.ch/>. Falls du weitere Hilfe mit deinem Linux oder Mac benötigst, findest du unter [Hilfe](/hilfe/), wie du uns kontaktieren kannst.
 
@@ -12,12 +13,12 @@ Für Mac gibt es auch gute Anleitungen vom ITA im *[OST-Intranet](https://intran
 
 ##  :closed\_lock\_with\_key: OST-Login
 
-Das OST-Login ist dein persönliches Login, welches du zum Studienstart erhalten hast.  
+Das OST-Login ist dein persönliches Login, welches du zum Studienstart erhalten hast.
 In unseren Dokumentationen verwenden wir jeweils den Benutzernamen ```maria.muster``` mit dem Passwort ```GeHeim007```
 
 ## :signal_strength: WLAN
 
-Überall an der OST hast du Zugriff auf das ```eduroam```-Netzwerk.  
+Überall an der OST hast du Zugriff auf das ```eduroam```-Netzwerk.
 Alle Angaben zum Einrichten findest du unter [Dokumentationen → WLAN](/hsr/wlan/).
 
 ## :envelope: E-Mail und Postfach
@@ -34,12 +35,12 @@ Die Unterlagen zu den Vorlesungen sollten im jeweiligen Moodle-Kurs verfügbar s
 
 ## :page\_with\_curl: Drucken
 
-<!-- 
+<!--
 Es gibt zwei Möglichkeiten zum Drucken:
 
 ### E-Mail mit PDF im Anhang
 
-Dies ist die einfachste Lösung, ohne dass du Treiber auf deinem Computer installieren musst.  
+Dies ist die einfachste Lösung, ohne dass du Treiber auf deinem Computer installieren musst.
 
 Sende einfach ein E-Mail mit einem PDF im Anhang an ```mobileprint.rj@ost.ch```. Du kannst das Dokument danach mit deinem Badge an jedem Drucker der OST abruf
 
@@ -52,7 +53,7 @@ Aktuell müssen Drucker auf dem Mac und Linux einzeln von Hand installiert und k
 1. Möglichkeit: PDF auf USB-Stick laden, am Drucker auswählen und mit dem Badge bezahlen. [Zum wiki](https://wiki.ost.ch/pages/releaseview.action?pageId=30966494)
 2. Möglichkeit: PDF zur mobileprint.{bu,sg,rj}@ost.ch E-Mail senden, am Drucker auswählen und mit dem Badge bezahlen. [Zum wiki](https://wiki.ost.ch/pages/releaseview.action?pageId=61572469)
 
-- [Drucker einrichten Windows](https://wiki.ost.ch/pages/releaseview.action?pageId=61573442) 
+- [Drucker einrichten Windows](https://wiki.ost.ch/pages/releaseview.action?pageId=61573442)
 - [Drucker einrichten macOS](https://wiki.ost.ch/pages/releaseview.action?pageId=424149241)
 
 ## :school: VPN

@@ -1,7 +1,7 @@
 title: https://www.open-ost.ch/
 description: > # this means to ignore newlines until "baseurl:"
   Wir fördern die Open Source Community und unterstützen dich bei
-  der Benutzung deines alternativen Betriebssystems an der OST.
+  der Benutzung deines alternativen Betriebssystems an der Fachhochschule OST.
 baseurl: ""
 url: "https://www.open-ost.ch/" # the base hostname & protocol for your site
 

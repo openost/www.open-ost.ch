@@ -9,4 +9,4 @@ RUN useradd --home /src -u 1000 -g 1000 -M jekyll
 
 USER jekyll
 
-ENV BUNDLE_PATH /src/vendor/bundle
+ENV BUNDLE_PATH=/src/vendor/bundle

@@ -1,7 +1,7 @@
 ---
 title: Events
 ---
-An der OST finden verschiedene regelmässige und einige weniger regelmässige **Events zu Open Source-Themen** statt.
+An der Fachhochschule OST finden verschiedene regelmässige und einige weniger regelmässige **Events zu Open Source-Themen** statt.
 Der **open\OST** hat sich zum Ziel gesetzt, diese Events zu unterstützen.
 
 Aktuelle Einträge zu allerlei Events sind am besten dem [Studentenportal](https://studentenportal.ch/events/) zu

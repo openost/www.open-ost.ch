@@ -9,7 +9,7 @@ redirect_from:
 
 ## Werde Mitglied!
 
-Du möchtest **Open Source an der OST** fördern oder ein nicht offiziell unterstütztes Betriebssystem an der OST nutzen?
+Du möchtest **Open Source an der Fachhochschule OST** fördern oder ein nicht offiziell unterstütztes Betriebssystem an der OST nutzen?
 Dann bist du bei uns richtig.
 
 Mit deiner Mitgliedschaft ...
